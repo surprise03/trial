@@ -1,0 +1,126 @@
+{
+  "content": [
+    {
+      "id": "1",
+      "Topic": "Ghibli",
+      "Title": "Ghibli Buzz: What's Trending Now",
+      "description": "Studio Ghibli-style AI images have taken the internet by storm...",
+      "image": "https://placehold.co/400x250?text=Ghibli",
+      "comments": [
+        "Yes the ghibli is a big trend now a days",
+        "This people Dont even know the meaning of Gibili"
+      ]
+    },
+    {
+      "id": "2",
+      "Topic": "AI Pets",
+      "Title": "Meet Your Virtual Pet Pal!",
+      "description": "AI-powered virtual pets are the latest obsession...",
+      "image": "https://placehold.co/400x250?text=AI+Pets",
+      "comments": []
+    },
+    {
+      "id": "3",
+      "Topic": "Cozy Web",
+      "Title": "Cozy Internet Is Making a Comeback",
+      "description": "Minimalist, feel-good personal websites with soft aesthetics...",
+      "image": "https://placehold.co/400x250?text=Cozy+Web",
+      "comments": []
+    },
+    {
+      "id": "4",
+      "Topic": "AI Covers",
+      "Title": "Famous Voices, New Songs",
+      "description": "AI-generated music covers using celebrity voices have gone viral...",
+      "image": "https://placehold.co/400x250?text=AI+Covers",
+      "comments": []
+    },
+    {
+      "id": "5",
+      "Topic": "3D Avatars",
+      "Title": "Your Digital Twin, But Cooler",
+      "description": "Social platforms are buzzing with 3D avatars that mimic your expressions...",
+      "image": "https://placehold.co/400x250?text=3D+Avatars",
+      "comments": []
+    },
+    {
+      "id": "6",
+      "Topic": "Lo-Fi Spaces",
+      "Title": "Lo-Fi Vibes, Infinite Loops",
+      "description": "Lo-fi animated workspaces and 'study with me' loops are trending again...",
+      "image": "https://placehold.co/400x250?text=Lo-Fi+Spaces",
+      "comments": []
+    },
+    {
+      "id": "7",
+      "Topic": "AI Travel",
+      "Title": "Dream Trips, AI Planned",
+      "description": "AI-powered travel planning tools now generate full itineraries...",
+      "image": "https://placehold.co/400x250?text=AI+Travel",
+      "comments": []
+    },
+    {
+      "id": "8",
+      "Topic": "Cottagecore Coding",
+      "Title": "Code Meets Cottagecore",
+      "description": "Aesthetic meets function as developers showcase cozy coding setups...",
+      "image": "https://placehold.co/400x250?text=Cottagecore+Coding",
+      "comments": []
+    },
+    {
+      "id": "9",
+      "Topic": "Digital Scrapbooks",
+      "Title": "Scrapbooking Goes Digital",
+      "description": "Creative expression is flourishing with digital scrapbooking apps...",
+      "image": "https://placehold.co/400x250?text=Digital+Scrapbooks",
+      "comments": []
+    },
+    {
+      "id": "10",
+      "Topic": "AI Makeovers",
+      "Title": "Try a Digital Glow-Up",
+      "description": "AI beauty filters and virtual stylists are more popular than ever...",
+      "image": "https://placehold.co/400x250?text=AI+Makeovers",
+      "comments": []
+    },
+    {
+      "id": "11",
+      "Title": "hellooo",
+      "description": "my name is suraj",
+      "comments": [
+        "Yes the ghibli is a big trend now a days",
+        "This people Dont even know the meaning of Gibili"
+      ]
+    },
+    {
+      "id": "12",
+      "Title": "HIT trailer ",
+      "description": "Have you guys seen the HIT trailer go watch it ,it's amazing ",
+      "comments": [
+        "Yes the ghibli is a big trend now a days",
+        "This people Dont even know the meaning of Gibili"
+      ]
+    },
+    {
+      "id": "ab3",
+      "Title": "HIT trailer ",
+      "description": "Have you guys seen the HIT trailer go watch it ,it's amazing ",
+      "comments": [
+        "Yes the ghibli is a big trend now a days",
+        "This people Dont even know the meaning of Gibili"
+      ]
+    },
+    {
+      "id": "d418",
+      "Title": "Job's For Genzy",
+      "description": "Now a day's students can't find the jobs that they like....",
+      "comments": []
+    },
+    {
+      "id": "415a",
+      "Title": "TikTok ",
+      "description": "Why is tiktok banned in India...",
+      "comments": []
+    }
+  ]
+}

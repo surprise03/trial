@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendShare - Discover & Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .cta-buttons {
+            margin-top: 20px;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .login-btn { background-color: #007bff; }
+        .signup-btn { background-color: #28a745; }
+        .browse-btn { background-color: #6c757d; }
+
+        .trending-wrapper {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .trending-wrapper h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .trending-section {
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .trend-item {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f4f4f4;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .trend-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .trend-item .hover-text {
+            position: absolute;
+            bottom: -50px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+
+        .trend-item:hover .hover-text {
+            opacity: 1;
+            transform: translateY(0);
+            bottom: 0;
+        }
+
+        footer {
+            margin: 30px 0;
+            font-size: 18px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        TrendShare - Discover & Connect
+    </header>
+
+    <div class="container">
+        <h1>Welcome to TrendShare</h1>
+        <p>Explore the latest trends and curated collections. Stay ahead of the game!</p>
+
+        <div class="cta-buttons">
+            <a href="../login.html" class="login-btn">Login</a>
+            <a href="../index.html" class="signup-btn">Sign Up</a>
+            <a href="browse.html" class="browse-btn">Browse Trends</a>
+        </div>
+    </div>
+
+    <div class="trending-wrapper">
+        <h2>🔥 Trending Now</h2>
+        <div class="trending-section">
+            <div class="trend-item">
+                <img src="../Images/anime.jpeg" alt="Studio Ghibli Art">
+                <div class="hover-text">#ghibli</div>
+            </div>
+            <div class="trend-item">
+                <img src="../Images/ai.jpeg" alt="Artificial Intelligence Artwork">
+                <div class="hover-text">#AI</div>
+            </div>
+            <div class="trend-item">
+                <img src="../Images/netflix.jpeg" alt="Netflix Shows">
+                <div class="hover-text">#Netflix Trending</div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    <footer>
+        Want to know more???
+    </footer> -->
+
+</body>
+</html>

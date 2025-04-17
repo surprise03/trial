@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    padding: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.sign_lag {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sign_lag span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.sign_lag img {
+    height: 30px;
+}
+
+.sign_lag button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign_lag button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.side_container {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 13vh;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.side_container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side_container p {
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.side_container p:hover,
+.side_container p.active {
+    color: blue;
+}
+
+.main_content {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+    padding: 20px;
+}
+
+.main_content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.main_content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#postedTrends {
+    margin-top: 20px;
+}
+
+
+
+
+.trendCard {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.language-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.language-dropdown img {
+    height: 30px;
+}
+
+.language-dropdown select {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+.dataDisplay{
+    width: 200px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Trending_container{
+    border :2px solid;
+
+}
+/* Container for all trend items - laid out in a row */
+#Trending_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* wraps to next line if not enough space */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* aligns items to the left */
+    align-items: center
+    ;
+    background-color: #fafafa; /* optional: light background */
+}
+
+/* Each trend card */
+.dataDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 250px; /* adjust width as needed */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for cards (optional) */
+.dataDisplay:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inside text styles */
+.dataDisplay p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Topic label */
+.dataDisplay p:nth-child(1) {
+    font-weight: bold;
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+}
+
+/* Title */
+.dataDisplay p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Description */
+.dataDisplay p:nth-child(3) {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .side_container {
+        position: static;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        border-right: none;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .main_content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
